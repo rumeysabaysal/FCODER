@@ -1,0 +1,42 @@
+.events{
+    &-title{
+        text-align: center;
+        font-size: 4vmin;
+        margin: 50px 0;
+        color: $secondary-color;
+        margin-bottom: 40px;
+    }
+
+    &-row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+      
+
+        &-col{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            gap: 15px; 
+            
+            h4{
+                color: $secondary-color;
+            }
+            p{
+                text-align: start;
+                color: $thirdy-color;
+                word-wrap: wrap;
+                word-break: break-all;
+                width: 80%;
+              
+            }
+            img{
+                width: 80%;
+            }
+        }
+
+    }
+}

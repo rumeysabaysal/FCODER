@@ -1,0 +1,25 @@
+.mybtn{
+    display: inline-block;//a etiketlerinde padding uygulamadan önce mutlaka bunu ya da block vermelisin!!!
+    color: $text-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+  
+    &:hover{
+      color: $primary-color;
+      background-color: $text-color;
+      border: 1px solid $primary-color;
+    
+    }
+    
+  }
+
+  .line{
+    background-color: $primary-color;
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
